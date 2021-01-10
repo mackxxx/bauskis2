@@ -1,0 +1,14 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+div#wrapper {
+  position: relative;
+  boxsizing: borderbox;
+  minheight: 100%;
+  margin: 0 auto;
+  paddingbottom: 48px;
+  backgroundcolor: #cccccc;
+}
