@@ -84,5 +84,5 @@ test:
 production:
   <<: *default
   database: bauskis2_production
-  username: bauskis2
+  username: postgres
   password: <%= ENV['BAUSKIS2_DATABASE_PASSWORD'] %>
