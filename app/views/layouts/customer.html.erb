@@ -1,4 +1,4 @@
-<!DOCTYPEhtml>
+<!DOCTYPE html>
 <html>
   <head>
     <title><%= document_title %></title>
@@ -8,3 +8,13 @@
     <%= stylesheet_link_tag "customer", media: "all", "data-turbolinks-track": true %>
     <%= javascript_pack_tag "application", "data-turbolinks-track": true %>
   </head>
+  <body>
+    <div id="wrapper">
+      <%= render "shared/header" %>
+      <div id="container">
+        <%= yield %>
+      </div>
+      <%= render "shared/footer" %>
+    </div>
+  </body>
+</html>
