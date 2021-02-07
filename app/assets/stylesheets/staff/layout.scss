@@ -1,4 +1,4 @@
-html,body {
+html, body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -6,9 +6,9 @@ html,body {
 
 div#wrapper {
   position: relative;
-  boxsizing: borderbox;
-  minheight: 100%;
+  box-sizing: border-box;
+  min-height: 100%;
   margin: 0 auto;
-  paddingbottom: 48px;
-  backgroundcolor: #cccccc;
+  padding-bottom: 48px;
+  background-color: #cccccc;
 }
