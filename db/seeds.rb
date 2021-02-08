@@ -1,4 +1,4 @@
-table_names = %w(staff_members)
+table_names = %w(staff_members administrators)
 
 
 table_names.each do|table_name|
