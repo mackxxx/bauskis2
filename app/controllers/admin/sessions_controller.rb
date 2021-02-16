@@ -28,6 +28,7 @@ class Admin::SessionsController < Admin::Base
       render action: "new"
     end
   end
+  
     
   private def login_form_params
     params.require(:admin_login_form).permit(:email, :password)
